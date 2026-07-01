@@ -3327,3 +3327,16 @@ input, select, textarea {
 			}
 
 		}
+
+.tiles article.bacteria-tile {
+    aspect-ratio: 1 / 1;
+}
+
+.tiles article.bacteria-tile .image,
+.tiles article.bacteria-tile .image img {
+    height: 100%;
+}
+
+.tiles article.bacteria-tile .image img {
+    object-fit: cover;
+}
